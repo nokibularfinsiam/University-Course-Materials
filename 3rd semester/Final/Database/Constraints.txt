@@ -1,0 +1,33 @@
+1.create table department1(deptid number(3) primary
+key,dept_name varchar(6) check(dept_name='CSE' or
+dept_name='EEE' or dept_name='BBA' or
+dept_name='Eng' or dept_name='Ach'),budget number(6)
+default 0);
+
+2.create table course1(crs_id number(4) primary key,crs_name
+varchar2(20) not null,
+deptid number(3)); 
+
+3.CREATE TABLE STUDENT(s_id number , s_name VARCHAR2(20),phone number,address VARCHAR2(50),email VARCHAR2(30) , 
+credit_completed NUMBER(3), course_completed NUMBER(2), cgpa number, deptno NUMBER(5), gender VARCHAR2(2));
+
+4. alter table stu1 add constraint fk6 primary key (s_id);
+
+5. alter table stu1 modify s_name number not null;
+
+6.alter table stu1 add unique(email);
+
+7.alter table stu1 add constraint fk7 foreign key (deptno)
+references department1(deptid);
+
+8.alter table stu1 add check (gender='M' or gender='F');
+
+9. alter table stu1 drop primary key; 
+
+10.alter table Student drop constraint con1 ;
+
+11.select constraint_name, column_name from
+user_cons_columns where
+table_name = 'STUDENT' ;
+
+12.alter table Student enable constraint fk6; 

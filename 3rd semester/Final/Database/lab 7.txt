@@ -1,0 +1,19 @@
+1.
+SELECT *
+FROM EMP w,
+     EMP m
+WHERE w.MGR = m.EMPNO
+  AND w.SAL> m.SAL;
+
+2.
+SELECT * FROM EMP WHERE SAL >Any(SELECT SAL FROM EMP
+WHERE JOB='MANAGER')
+
+3.
+SELECT EMPNO,JOB,SALFROM EMP WHERE JOB='ANALYST' AND SAL >ANY (SELECT SAL FROM EMP
+WHERE JOB='MANAGER');
+
+4. 
+select *
+From emp
+Where deptno=(select deptno from dept where loc='DALLAAS');

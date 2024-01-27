@@ -1,0 +1,43 @@
+1. SELECT * FROM EMP WHERE SAL >ALL (SELECT SAL FROM EMP WHERE JOB='MANAGER');
+
+
+2. SELECT * FROM EMP WHERE SAL >ANY (SELECT SAL FROM EMP WHERE JOB='MANAGER');
+
+
+3. SELECT EMPNO, JOB, SAL FROM EMP WHERE JOB='ANALYST' AND SAL > (SELECT MIN(SAL) FROM EMP WHERE JOB='MANAGER');
+
+
+4. SELECT * FROM EMP WHERE DEPTNO IN (SELECT DEPTNO FROM DEPT WHERE LOC='DALLAS');
+
+
+5. SELECT DNAME, LOC FROM DEPT WHERE DEPTNO IN (SELECT DEPTNO FROM EMP WHERE MGR IN (SELECT EMPNO FROM EMP WHERE ENAME='CLARK'));
+
+
+6. select *from  dept where deptno in  (select deptno from  emp where job='MANAGER');
+
+
+7.  select sal from  emp where sal in  (select max(sal) from  emp);
+
+
+8. SELECT MAX(HIREDATE) FROM EMP WHERE HIREDATE < (SELECT MAX(HIREDATE) FROM EMP);
+
+
+9. SELECT MAX(HIREDATE) FROM EMP WHERE HIREDATE < (SELECT MAX(HIREDATE) FROM EMP WHERE HIREDATE < (SELECT MAX(HIREDATE) FROM EMP));
+
+
+10. select * from  emp where deptno in (select deptno from  dept where dname in('ACCOUNTING','MARKETING')) AND job  in ('CLERK','MANAGER');
+
+
+11. select * from  emp where deptno <> (select deptno from  dept where loc='DALLAS') AND job  in ('SALESMAN');
+
+
+12. select * from  emp where deptno in (select deptno from  dept where deptno in (select deptno from  emp where ename='SCOTT')) AND ename<>'SCOTT';
+
+
+13. select * from  emp where sal in (select sal from  emp where ename='SMITH') AND ename<>'SMITH';
+
+
+14. select * from  emp where comm<>'0'AND deptno = (select deptno from  dept where dname ='MARKETING') and to char (HIREDATE,'DY') not in ('Fri');
+
+
+15. select * from emp where sal >All (select avg(sal) from emp);

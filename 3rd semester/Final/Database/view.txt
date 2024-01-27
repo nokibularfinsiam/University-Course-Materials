@@ -1,0 +1,26 @@
+1.
+Create view emp_vu as
+Select empno, ename employee, deptno
+From emp; 
+
+2.
+Select * from emp_vu;
+
+3.
+Select employee, deptno
+From emp_vu;
+
+4.
+Create view dept20 as
+Select empno employee_id, ename employee, deptno department_id
+From emp
+Where deptno=20
+With check option;
+
+5.
+Create view salary_vu as
+Select ename employee, dname department,
+Sal salary, grade
+From emp e, dept d, salgrade s
+Where e.Deptno = d.Deptno
+And e.Sal between s.Losal and s.Hisal;
