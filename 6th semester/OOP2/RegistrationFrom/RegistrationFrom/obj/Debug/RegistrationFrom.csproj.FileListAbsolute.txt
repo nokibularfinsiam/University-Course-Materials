@@ -1,0 +1,11 @@
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\bin\Debug\RegistrationFrom.exe.config
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\bin\Debug\RegistrationFrom.exe
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\bin\Debug\RegistrationFrom.pdb
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.csproj.AssemblyReference.cache
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.csproj.SuggestedBindingRedirects.cache
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.Form1.resources
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.Properties.Resources.resources
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.csproj.GenerateResource.cache
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.csproj.CoreCompileInputs.cache
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.exe
+D:\Siam\University\6th semester\OOP2\RegistrationFrom\RegistrationFrom\obj\Debug\RegistrationFrom.pdb

@@ -1,0 +1,13 @@
+D:\Siam\University\6th semester\OOP2\Front page\Front page\bin\Debug\Front page.exe.config
+D:\Siam\University\6th semester\OOP2\Front page\Front page\bin\Debug\Front page.exe
+D:\Siam\University\6th semester\OOP2\Front page\Front page\bin\Debug\Front page.pdb
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.csproj.AssemblyReference.cache
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.csproj.SuggestedBindingRedirects.cache
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front_page.Form1.resources
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front_page.LogIn.resources
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front_page.Properties.Resources.resources
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front_page.Registration.resources
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.csproj.GenerateResource.cache
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.csproj.CoreCompileInputs.cache
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.exe
+D:\Siam\University\6th semester\OOP2\Front page\Front page\obj\Debug\Front page.pdb

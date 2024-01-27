@@ -1,0 +1,11 @@
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\bin\Debug\21-44793-1.exe.config
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\bin\Debug\21-44793-1.exe
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\bin\Debug\21-44793-1.pdb
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.csproj.AssemblyReference.cache
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.csproj.SuggestedBindingRedirects.cache
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\_21_44793_1.Form1.resources
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\_21_44793_1.Properties.Resources.resources
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.csproj.GenerateResource.cache
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.csproj.CoreCompileInputs.cache
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.exe
+D:\Siam\University\6th semester\OOP2\21-44793-1\21-44793-1\obj\Debug\21-44793-1.pdb

@@ -1,0 +1,12 @@
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\bin\Debug\Labtask_3_final.exe.config
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\bin\Debug\Labtask_3_final.exe
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\bin\Debug\Labtask_3_final.pdb
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.csproj.AssemblyReference.cache
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.csproj.SuggestedBindingRedirects.cache
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.Form1.resources
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.Properties.Resources.resources
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.csproj.GenerateResource.cache
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.csproj.CoreCompileInputs.cache
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.exe
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.pdb
+D:\Siam\University\6th semester\OOP2\Labtask_3_final\Labtask_3_final\obj\Debug\Labtask_3_final.ShowInfo.resources

@@ -1,0 +1,232 @@
+1.
+using System.Runtime.ExceptionServices;
+
+namespace LabTask_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstName = "Nokibul Arfin";
+            string lastName = "Siam";
+            string birthDate = "27-10-2002";
+            string addressLine1 = "225 jatrabari" ;
+            string addressLine2 = "227 Bausia";
+            string city = "Dhaka";
+            string state = "South Dhaka";
+            int zipCode = Convert.ToInt32(1236);
+            string country = "Bangladesh";
+
+
+            Console.WriteLine(firstName);
+            Console.WriteLine(lastName);
+            Console.WriteLine(birthDate);
+            Console.WriteLine(addressLine1);
+            Console.WriteLine(addressLine2);
+            Console.WriteLine(city);
+            Console.WriteLine(state);
+            Console.WriteLine(zipCode);
+            Console.WriteLine(country);
+        }
+    }
+}
+
+
+
+
+2.
+
+using System.Runtime.ExceptionServices;
+
+namespace LabTask_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Your First Name:");
+            string firstName = Console.ReadLine();
+
+            Console.WriteLine("Your Last Name:");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine("Your Birth Date:");
+            string birthDate = Console.ReadLine();
+
+            Console.WriteLine("Your address 1:");
+            string addressLine1 = Console.ReadLine();
+
+            Console.WriteLine("Your address 2:");
+            string addressLine2 = Console.ReadLine();
+
+            Console.WriteLine("Your City:");
+            string city = Console.ReadLine();
+
+            Console.WriteLine("Your State:");
+            string state = Console.ReadLine();
+
+            Console.WriteLine("Your Zip Code:");
+            int zipCode = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Your Country:");
+            string country = Console.ReadLine();
+
+
+            Console.WriteLine("your First Name is:"+firstName);
+            Console.WriteLine("your Last Name is:" +lastName);
+            Console.WriteLine("your Date of Birth is:" +birthDate);
+            Console.WriteLine("your Address 1 is:" + addressLine1);
+            Console.WriteLine("your Address 2 is:" + addressLine2);
+            Console.WriteLine("your City is:" + city);
+            Console.WriteLine("your State is:" + state);
+            Console.WriteLine("your Zip Code is:" +zipCode);
+            Console.WriteLine("your Country is:" +country);
+        }
+    }
+}
+
+
+
+
+3.
+
+using System.Runtime.ExceptionServices;
+
+namespace LabTask_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Coordinate point;
+
+            Console.WriteLine("Your First Name:");
+             point.firstName = Console.ReadLine();
+
+            Console.WriteLine("Your Last Name:");
+            point.lastName = Console.ReadLine();
+
+            Console.WriteLine("Your Birth Date:");
+            point.birthDate = Console.ReadLine();
+
+            Console.WriteLine("Your address 1:");
+            point.addressLine1 = Console.ReadLine();
+
+            Console.WriteLine("Your address 2:");
+            point.addressLine2 = Console.ReadLine();
+
+            Console.WriteLine("Your City:");
+            point.city = Console.ReadLine();
+
+            Console.WriteLine("Your State:");
+            point.state = Console.ReadLine();
+
+            Console.WriteLine("Your Zip Code:");
+            point.zipCode = Console.ReadLine();
+
+            Console.WriteLine("Your Country:");
+            point.country = Console.ReadLine();
+
+
+            Console.WriteLine("your First Name is:" +point.firstName);
+            Console.WriteLine("your Last Name is:" +point.lastName);
+            Console.WriteLine("your Date of Birth is:" + point.birthDate);
+            Console.WriteLine("your Address 1 is:" + point.addressLine1);
+            Console.WriteLine("your Address 2 is:" + point.addressLine2);
+            Console.WriteLine("your City is:" + point.city);
+            Console.WriteLine("your State is:" + point.state);
+            Console.WriteLine("your Zip Code is:" + point.zipCode);
+            Console.WriteLine("your Country is:" + point.country);
+        }
+
+        struct Coordinate
+        {
+            public string firstName, lastName, birthDate, addressLine1, addressLine2, city, state, zipCode, country;
+        }
+    }
+}
+
+
+
+
+
+4. 
+
+using System.Runtime.ExceptionServices;
+
+namespace LabTask_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)    //Main Function
+        {
+            Circle();
+            Rectangule();
+            Triangle();
+        }
+
+        static void Circle()  // Area of circle
+        {
+            Console.Write("Enter Radius: ");
+            double Radious = Convert.ToDouble(Console.ReadLine());
+            
+            double Area = Math.PI * Radious * Radious;
+            Console.WriteLine("Area of circle: " + Area);
+        }
+
+        static void Rectangule()  // Area of rectangule
+        {
+            Console.Write("Enter Length: ");
+            double Length = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter Width: ");
+            double Width = Convert.ToDouble(Console.ReadLine());
+            
+            double Area = Length * Width;
+            Console.WriteLine("Area of  rectangule: " + Area);
+        }
+
+
+        static void Triangle()  // Area of Triangle
+        {
+            Console.Write("Enter Base: ");
+            double Base = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter Hight: ");
+            double Hight = Convert.ToDouble(Console.ReadLine());
+            
+            double Area = (Base*Hight)/2;
+            Console.WriteLine("Area of  triangle: " + Area);
+        }
+    }
+}
+
+
+
+
+5. 
+
+using System.Runtime.ExceptionServices;
+
+namespace LabTask_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+              for (int column = 0; column <= 8; column++)
+            {
+                for (int row = 0; row <= 8; row++)
+                {
+                    if ((column + row) % 2 == 0)
+                    {
+                        Console.Write("X");
+                    }
+                    else if ((column + row) % 2 == 1)
+                    {
+                        Console.Write("O");
+                    }                  
+                }
+               Console.WriteLine();
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\bin\Debug\net6.0\Lab-task_4.exe
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\bin\Debug\net6.0\Lab-task_4.deps.json
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\bin\Debug\net6.0\Lab-task_4.runtimeconfig.json
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\bin\Debug\net6.0\Lab-task_4.dll
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\bin\Debug\net6.0\Lab-task_4.pdb
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.csproj.AssemblyReference.cache
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.AssemblyInfoInputs.cache
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.AssemblyInfo.cs
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.csproj.CoreCompileInputs.cache
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.dll
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\refint\Lab-task_4.dll
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.pdb
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\Lab-task_4.genruntimeconfig.cache
+D:\Siam\University\6th semester\OOP2\Lab-task_4\Lab-task_4\obj\Debug\net6.0\ref\Lab-task_4.dll

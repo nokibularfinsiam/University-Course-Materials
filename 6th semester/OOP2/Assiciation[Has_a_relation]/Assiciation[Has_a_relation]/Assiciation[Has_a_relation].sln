@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assiciation[Has_a_relation]", "Assiciation[Has_a_relation]\Assiciation[Has_a_relation].csproj", "{0DF8EC19-0E6D-43F4-81BE-A826B93AF4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF8EC19-0E6D-43F4-81BE-A826B93AF4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF8EC19-0E6D-43F4-81BE-A826B93AF4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF8EC19-0E6D-43F4-81BE-A826B93AF4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF8EC19-0E6D-43F4-81BE-A826B93AF4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D47459-473F-4E06-ABCD-04A33C4E7C00}
+	EndGlobalSection
+EndGlobal

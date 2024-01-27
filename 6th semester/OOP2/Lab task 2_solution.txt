@@ -1,0 +1,133 @@
+1.
+
+using Microsoft.VisualBasic;
+using System;
+using System.Diagnostics.Metrics;
+using System.Net;
+using System.Threading.Tasks;
+
+namespace Lab_task2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] info = {"firstName", "lastName", "birthDate", "addressLine1", "addressLine2", "city", "state", "zip", "country"};
+            Console.WriteLine("You wants to change your information: 1.Yes or 2.No? ");
+
+            int x = Int32.Parse(Console.ReadLine());
+            int Change_Information = x;
+            switch (Change_Information)
+            {
+                case 1:
+                    Console.WriteLine("-----------Yes I can change my information----------- ");
+                    ChangeInfo();
+                    break;
+
+                case 2:
+                    Console.WriteLine("-----------NO I cannot change my information-----------");
+                    PrintInfo();
+                    break;
+
+            }
+
+        }
+
+        static void ChangeInfo()
+        {
+            Console.WriteLine("You are able to change four information:");
+            Console.WriteLine("1. Address Line 1");
+            Console.WriteLine("2. Address Line 2");
+            Console.WriteLine("3. City");
+            Console.WriteLine("4. Country");
+            Console.WriteLine("Enter a Number which Information you need to change");
+
+            int x = Int32.Parse(Console.ReadLine());
+            int Change_Information = x;
+            switch (Change_Information)
+            {
+                case 1:
+                    Console.WriteLine("Change Address Line 1 ");
+                    string addressLine1 = Console.ReadLine();
+                    Console.WriteLine("New Address 1 is:" + addressLine1);
+                    break;
+
+                case 2:
+                    Console.WriteLine("Change Address Line 2 ");
+                    string addressLine2 = Console.ReadLine();
+                    Console.WriteLine("New Address 2 is:" + addressLine2);
+                    break;
+
+                case 3:
+                    Console.WriteLine("Change your City ");
+                    string city = Console.ReadLine();
+                    Console.WriteLine("New City is:" +city);
+                    break;
+
+                case 4:
+                    Console.WriteLine("Change your Country ");
+                    string country = Console.ReadLine();
+                    Console.WriteLine("New Country is:" +country);
+                    break;
+
+                default:
+                    Console.WriteLine(" Invalid input. Try again! ");
+                    break;
+            }
+
+            Console.WriteLine("-----------Information Changed-----------");
+        }
+
+        static void PrintInfo()
+        {
+            Console.WriteLine("You wants to print your information: 1.Yes or 2.No? ");
+            int x = Int32.Parse(Console.ReadLine());
+            int Print_Information = x;
+            switch (Print_Information)
+            {
+                case 1:
+                    Console.WriteLine("print student information");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Thank you for your information" ) ;                
+                    break;
+
+                default:
+                    Console.WriteLine(" Invalid input. Try again! ");
+                    break;
+            }
+        }
+
+
+    }
+}
+
+
+
+2. 
+
+
+
+using Microsoft.VisualBasic;
+using System;
+namespace Lab_task2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a=2, b=2;
+            int[,] array1 = { { 1, 2 }, { 3, 5 } };
+            int[,] array2 = { { 2, 3 }, { 3, 4 } };
+            int[,] array3 = { { 4, 5 }, { 3, 6 } };
+        
+             array2[a,b] = array1[a,b] * array2[a,b];
+             array3[a,b] = array2[a,b] * array3[a,b];
+
+            Console.WriteLine(array3);
+        }
+
+
+    }
+}
