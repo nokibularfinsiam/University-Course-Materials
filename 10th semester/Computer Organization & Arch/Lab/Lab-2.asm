@@ -35,6 +35,18 @@ Main proc
     lea dx, NEWL
     int 21h
     
+    mov ah, 9h
+    lea dx, a
+    int 21h
+    
+    mov ah, 1
+    int 21h
+    mov cl, al
+    
+    mov ah, 9
+    lea dx, NEWL
+    int 21h
+    
     mov ah, 2
     mov dl, bh
     int 21h
@@ -45,6 +57,14 @@ Main proc
     
     mov ah, 2
     mov dl, ch
+    int 21h
+    
+    mov ah, 9
+    lea dx, NEWL
+    int 21h
+    
+    mov ah, 2
+    mov dl, cl
     int 21h
     
     mov ah, 4ch
