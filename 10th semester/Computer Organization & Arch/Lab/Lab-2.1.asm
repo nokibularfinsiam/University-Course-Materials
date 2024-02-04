@@ -11,6 +11,8 @@ Main proc
     mov ax, @data
     mov ds, ax
     
+    ;input-1
+    
     mov ah, 9h
     lea dx, a
     int 21h
@@ -22,6 +24,8 @@ Main proc
     mov ah, 9
     lea dx, NEWL
     int 21h
+    
+    ;input-2
     
     mov ah, 9h
     lea dx, a
@@ -35,6 +39,8 @@ Main proc
     lea dx, NEWL
     int 21h
     
+    ;input-3
+    
     mov ah, 9h
     lea dx, a
     int 21h
@@ -47,6 +53,8 @@ Main proc
     lea dx, NEWL
     int 21h
     
+    ;output-1
+    
     mov ah, 2
     mov dl, bh
     int 21h
@@ -55,6 +63,8 @@ Main proc
     lea dx, NEWL
     int 21h
     
+    ;output-2
+    
     mov ah, 2
     mov dl, ch
     int 21h
@@ -62,6 +72,8 @@ Main proc
     mov ah, 9
     lea dx, NEWL
     int 21h
+    
+    ;output-3
     
     mov ah, 2
     mov dl, cl
